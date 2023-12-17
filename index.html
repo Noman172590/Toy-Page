@@ -14,17 +14,18 @@
 
 <body>
     <header>
-
-
         <nav
-            class="bg-[#1a56db] dark:bg-gray-900 fixed w-full z-20 top-0 start-0 border-b border-gray-200 dark:border-gray-600 p-3 ">
-            <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4 hover:border border-white rounded">
-                <a href="https://flowbite.com/" class="flex items-center space-x-3 rtl:space-x-reverse hover:border border-white rounded">
+            class="bg-[#1a56db] dark:bg-gray-900 w-full z-20 top-0 start-0 border-b border-gray-200 dark:border-gray-600 p-3 ">
+            <div
+                class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4 hover:border border-white rounded">
+                <a href="https://flowbite.com/"
+                    class="flex items-center space-x-3 rtl:space-x-reverse hover:border border-white rounded">
                     <img src="/Image/asset 0.png" class="h-8" alt="matico logo">
-                   
+
                 </a>
-                <div class="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse hover:border border-white rounded ">
-                    
+                <div
+                    class="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse hover:border border-white rounded ">
+
                     <button type="button"
                         class="text-black  bg-white  hover:bg-[#1c64f2] focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 hover:border border-white rounded me-2 ">
                         Log In</button>
@@ -42,11 +43,12 @@
                         </svg>
                     </button>
                 </div>
-                <div class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1 hover:border border-white rounded" id="navbar-sticky">
+                <div class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1 hover:border border-white rounded"
+                    id="navbar-sticky">
                     <ul
                         class="flex flex-col p-4 md:p-0 mt-4
                           font-medium border border-gray-100 rounded-lg bg-[#1a56db] md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 ">
-                        
+
                         <li>
                             <a href="#"
                                 class="block text-2xl p-3 text-white rounded hover:border border-white  hover:bg-red-400 md:hover:bg-transparent
@@ -55,21 +57,88 @@
                         <li>
                             <a href="#"
                                 class="block text-2xl p-3 text-white rounded hover:border border-white  hover:bg-red-400 md:hover:bg-transparent
-                                 md:hover:text-rose-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">All Toys</a>
+                                 md:hover:text-rose-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">All
+                                Toys</a>
                         </li>
                         <li>
                             <a href="#"
                                 class="block text-2xl p-3 text-white rounded hover:border border-white  hover:bg-red-400 md:hover:bg-transparent
                                  md:hover:text-rose-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Blogs</a>
                         </li>
-                       
+
                     </ul>
                 </div>
             </div>
         </nav>
-
-
     </header>
+
+    <main>
+        <section class="hover:border border-white rounded -mt-0.5 ">
+
+
+            <div id="default-carousel" class="relative w-full" data-carousel="slide">
+                <!-- Carousel wrapper -->
+                <div class="relative h-56 overflow-hidden  md:h-96">
+                    <!-- Item 1 -->
+                    <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                        <img src="/Image/asset 1.jpeg"
+                            class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+                    </div>
+                    <!-- Item 2 -->
+                    <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                        <img src="/Image/pic2.jpeg"
+                            class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+                    </div>
+                    <!-- Item 3 -->
+                    <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                        <img src="/Image/mainbanner2-1920x750-5ba9f0d4.jpg"
+                            class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+                    </div>
+                    
+                    
+                </div>
+                <!-- Slider indicators -->
+                <div class="absolute z-30 flex -translate-x-1/2 bottom-5 left-1/2 space-x-3 rtl:space-x-reverse">
+                    <button type="button" class="w-3 h-3 rounded-full" aria-current="true" aria-label="Slide 1"
+                        data-carousel-slide-to="0"></button>
+                    <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 2"
+                        data-carousel-slide-to="1"></button>
+                    <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 3"
+                        data-carousel-slide-to="2"></button>
+                    
+                </div>
+                <!-- Slider controls -->
+                <button type="button"
+                    class="absolute top-0 start-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none"
+                    data-carousel-prev>
+                    <span
+                        class="inline-flex items-center justify-center w-10 h-10 ">
+                        <svg class="w-4 h-64 text-white dark:text-gray-800 rtl:rotate-180" aria-hidden="true"
+                            xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+                            <path stroke="currentColor"  stroke-width="1"
+                                d="M5 1 1 5l4 4" />
+                        </svg>
+                        <span class="sr-only">Previous</span>
+                    </span>
+                </button>
+                <button type="button"
+                    class="absolute top-0 end-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none"
+                    data-carousel-next>
+                    <span
+                        class="inline-flex items-center justify-center w-10 h-10 rounded-full ">
+                        <svg class="w-4 h-64 text-white dark:text-gray-800 rtl:rotate-180" aria-hidden="true"
+                            xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"
+                                d="m1 9 4-4-4-4" />
+                        </svg>
+                        <span class="sr-only">Next</span>
+                    </span>
+                </button>
+            </div>
+
+        </section>
+        <!-- second section start -->
+    </main>
 
 
 
